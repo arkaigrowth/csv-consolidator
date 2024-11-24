@@ -1,0 +1,15 @@
+# Ignore all files in data subdirectories
+data/unprocessed/*
+data/processed/*
+
+# Keep the directories themselves
+!data/unprocessed/.gitkeep
+!data/processed/.gitkeep
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
